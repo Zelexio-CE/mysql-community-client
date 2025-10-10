@@ -1,0 +1,49 @@
+[mysql-connectors-community]
+name=MySQL Connectors Community
+baseurl=https://repo.mysql.com/yum/mysql-connectors-community/el/$releasever/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
+
+[mysql-8.4-lts-community]
+name=MySQL 8.4 LTS Community Server
+baseurl=https://repo.mysql.com/yum/mysql-8.4-community/el/$releasever/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
+
+[mysql-tools-8.4-lts-community]
+name=MySQL Tools 8.4 LTS Community
+baseurl=https://repo.mysql.com/yum/mysql-tools-8.4-community/el/$releasever/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
+
+[mysql-cluster-8.4-lts-community]
+name=MySQL Cluster 8.4 LTS Community
+baseurl=https://repo.mysql.com/yum/mysql-cluster-8.4-community/el/$releasever/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
+
+[mysql-innovation-community]
+name=MySQL Innovation Release Community Server
+baseurl=https://repo.mysql.com/yum/mysql-innovation-community/el/$releasever/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
+
+[mysql-tools-innovation-community]
+name=MySQL Tools Innovation Community
+baseurl=https://repo.mysql.com/yum/mysql-tools-innovation-community/el/$releasever/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
+
+[mysql-cluster-innovation-community]
+name=MySQL Cluster Innovation Release Community
+baseurl=https://repo.mysql.com/yum/mysql-cluster-innovation-community/el/$releasever/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-mysql-2023
+
