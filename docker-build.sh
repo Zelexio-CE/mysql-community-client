@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION=8.4.8
+VERSION=8.4.9
 
 docker buildx build \
   --build-arg VERSION=${VERSION} \
